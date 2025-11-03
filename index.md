@@ -1,80 +1,202 @@
-<!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Jesús Castro · Analista de Datos</title>
-  <meta name="description" content="Analista de Datos · Ciencia Reproducible · Datos Abiertos (INE, Eurostat, OpenData). R · Quarto · GitHub.">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --bg1:#0B1E4B; --bg2:#1E3A8A; --fg:#FAF9F6; --acc:#00D4AA;
-      --card:rgba(255,255,255,.08); --shadow:0 8px 28px rgba(0,0,0,.25);
-      --radius:24px;
-    }
-    *{box-sizing:border-box}
-    body{
-      margin:0; background:#071631; color:var(--fg);
-      font-family:Inter,system-ui,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",sans-serif;
-      -webkit-font-smoothing:antialiased; line-height:1.6;
-      padding:32px 16px;
-    }
-    .hero{
-      background:linear-gradient(135deg,var(--bg1),var(--bg2));
-      padding: clamp(40px,6vw,70px) clamp(20px,4vw,30px);
-      border-radius:var(--radius); max-width:960px; margin:0 auto;
-      text-align:center; box-shadow:var(--shadow);
-    }
-    h1{
-      font-family:Montserrat,sans-serif; font-weight:800; letter-spacing:-.5px;
-      margin:0 0 12px; font-size:clamp(28px,5vw,46px);
-    }
-    .bar{width:100px;height:4px;background:var(--acc);margin:0 auto 24px;border-radius:2px}
-    h2{font-weight:500;opacity:.9;margin:0 0 42px;font-size:clamp(18px,3.2vw,22px)}
-    .cards{display:flex;justify-content:center;flex-wrap:wrap;gap:32px}
-    .card{
-      background:var(--card); padding:28px 34px; border-radius:16px; width:220px;
-      box-shadow:0 2px 10px rgba(0,0,0,.06);
-    }
-    .emoji{font-size:28px}
-    .card h3{margin:8px 0 4px 0;font-weight:600;font-size:18px}
-    .muted{font-size:13px;opacity:.7;margin:6px 0 0}
-    .links{margin:48px 0 4px;font-size:14px;opacity:.85}
-    a{color:var(--acc);text-decoration:none}
-    a:hover{text-decoration:underline}
-    a:focus-visible{outline:2px solid var(--acc);outline-offset:3px;border-radius:6px}
-    footer{font-size:12px;opacity:.55;margin-top:16px}
-    @media (prefers-reduced-motion: reduce){*{scroll-behavior:auto}}
-  </style>
-</head>
-<body>
-  <main class="hero">
-    <h1>JESÚS CASTRO</h1>
-    <div class="bar"></div>
-    <h2>Analista de Datos · Ciencia Reproducible</h2>
+<section style="background: linear-gradient(135deg, #0B1E4B 0%, #1E3A8A 50%, #0F2C6B 100%);
+                padding: 90px 40px; 
+                border-radius: 32px; 
+                color: #FFFFFF;
+                font-family: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif; 
+                text-align: center;
+                box-shadow: 0 24px 64px rgba(0, 0, 0, 0.32), 
+                           inset 0 1px 0 rgba(255, 255, 255, 0.12);
+                max-width: 1200px; 
+                margin: 40px auto;
+                position: relative;
+                overflow: hidden;
+                border: 1px solid rgba(255, 255, 255, 0.08);">
 
-    <section class="cards" aria-label="Especialidades">
-      <div class="card">
-        <div class="emoji" aria-hidden="true">📊</div>
-        <h3>Datos Abiertos</h3>
-        <p class="muted">INE · Eurostat · OpenData</p>
-      </div>
-      <div class="card">
-        <div class="emoji" aria-hidden="true">🔄</div>
-        <h3>Ciencia Reproducible</h3>
-        <p class="muted">R · Quarto · GitHub</p>
-      </div>
-    </section>
+  <!-- Efectos de fondo sofisticados -->
+  <div style="position: absolute; 
+              top: -100px; 
+              right: -100px; 
+              width: 300px; 
+              height: 300px; 
+              background: radial-gradient(circle, rgba(0, 212, 170, 0.15) 0%, transparent 70%);
+              border-radius: 50%;"></div>
+  
+  <div style="position: absolute; 
+              bottom: -80px; 
+              left: -80px; 
+              width: 200px; 
+              height: 200px; 
+              background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 70%);
+              border-radius: 50%;"></div>
 
-    <p class="links">
-      Santa Cruz de Tenerife, Canarias · En remoto ·
-      <a href="https://www.linkedin.com/in/jesuscastrodata">LinkedIn</a> ·
-      <a href="https://github.com/JESUSCASTRODATA">GitHub</a> ·
-      <a href="https://doi.org/10.5281/zenodo.17465216">Zenodo</a> ·
-      <a href="https://jesuscastrodata.github.io">jesuscastrodata.github.io</a>
+  <!-- Contenido principal -->
+  <div style="position: relative; z-index: 2;">
+    
+    <!-- Nombre principal -->
+    <h1 style="font-family: 'Montserrat', 'Inter', sans-serif; 
+               font-weight: 800;
+               font-size: 62px; 
+               letter-spacing: -1.2px; 
+               margin-bottom: 16px;
+               background: linear-gradient(135deg, #FFFFFF 0%, #F0F4FF 100%);
+               -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;
+               text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+      JESÚS CASTRO
+    </h1>
+    
+    <!-- Línea divisoria elegante -->
+    <div style="width: 140px; 
+                height: 4px; 
+                background: linear-gradient(90deg, #00D4AA 0%, #3B82F6 100%); 
+                margin: 0 auto 32px; 
+                border-radius: 4px;
+                box-shadow: 0 4px 12px rgba(0, 212, 170, 0.3);"></div>
+    
+    <!-- Subtítulo -->
+    <h2 style="font-weight: 500; 
+               opacity: 0.95; 
+               margin-bottom: 60px; 
+               font-size: 24px;
+               letter-spacing: -0.2px;
+               text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);">
+      Analista de Datos · Ciencia Reproducible
+    </h2>
+
+    <!-- Tarjetas de especialidades -->
+    <div style="display: flex; 
+                justify-content: center; 
+                flex-wrap: wrap; 
+                gap: 40px;
+                margin-bottom: 70px;">
+      
+      <div style="background: rgba(255, 255, 255, 0.07);
+                  padding: 36px 40px; 
+                  border-radius: 24px; 
+                  width: 260px;
+                  backdrop-filter: blur(20px);
+                  border: 1px solid rgba(255, 255, 255, 0.12);
+                  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+                  position: relative;
+                  overflow: hidden;">
+        <div style="font-size: 42px; 
+                    margin-bottom: 16px;
+                    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));">📊</div>
+        <p style="margin: 12px 0 6px 0; 
+                  font-weight: 700;
+                  font-size: 18px;
+                  letter-spacing: -0.2px;">Datos Abiertos</p>
+        <p style="font-size: 14px; 
+                  opacity: 0.8;
+                  line-height: 1.5;">INE · Eurostat · OpenData</p>
+      </div>
+
+      <div style="background: rgba(255, 255, 255, 0.07);
+                  padding: 36px 40px; 
+                  border-radius: 24px; 
+                  width: 260px;
+                  backdrop-filter: blur(20px);
+                  border: 1px solid rgba(255, 255, 255, 0.12);
+                  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+                  position: relative;
+                  overflow: hidden;">
+        <div style="font-size: 42px;
+                    margin-bottom: 16px;
+                    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));">🔄</div>
+        <p style="margin: 12px 0 6px 0;
+                  font-weight: 700;
+                  font-size: 18px;
+                  letter-spacing: -0.2px;">Ciencia Reproducible</p>
+        <p style="font-size: 14px;
+                  opacity: 0.8;
+                  line-height: 1.5;">R · Quarto · GitHub</p>
+      </div>
+    </div>
+
+    <!-- Información de contacto -->
+    <div style="background: rgba(255, 255, 255, 0.05);
+                padding: 28px 40px;
+                border-radius: 20px;
+                backdrop-filter: blur(15px);
+                border: 1px solid rgba(255, 255, 255, 0.08);
+                max-width: 600px;
+                margin: 0 auto;">
+      
+      <p style="margin-bottom: 20px; 
+                font-size: 15px; 
+                opacity: 0.9;
+                font-weight: 500;">
+        📍 Santa Cruz de Tenerife, Canarias · 🌐 En remoto
+      </p>
+      
+      <div style="display: flex; 
+                  justify-content: center; 
+                  gap: 28px; 
+                  flex-wrap: wrap;">
+        <a href="https://www.linkedin.com/in/jesuscastrodata" 
+           style="color: #00D4AA; 
+                  text-decoration: none;
+                  font-weight: 600;
+                  font-size: 15px;
+                  transition: all 0.3s ease;
+                  padding: 8px 16px;
+                  border-radius: 8px;
+                  background: rgba(0, 212, 170, 0.1);">
+          LinkedIn
+        </a>
+        <a href="https://github.com/JESUSCASTRODATA" 
+           style="color: #00D4AA;
+                  text-decoration: none;
+                  font-weight: 600;
+                  font-size: 15px;
+                  transition: all 0.3s ease;
+                  padding: 8px 16px;
+                  border-radius: 8px;
+                  background: rgba(0, 212, 170, 0.1);">
+          GitHub
+        </a>
+        <a href="https://doi.org/10.5281/zenodo.17465216" 
+           style="color: #00D4AA;
+                  text-decoration: none;
+                  font-weight: 600;
+                  font-size: 15px;
+                  transition: all 0.3s ease;
+                  padding: 8px 16px;
+                  border-radius: 8px;
+                  background: rgba(0, 212, 170, 0.1);">
+          Zenodo
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <p style="font-size: 13px; 
+              opacity: 0.5; 
+              margin-top: 40px;
+              letter-spacing: 0.2px;
+              font-weight: 400;">
+      © JESUSCASTRODATA · OPEN SCIENCE · 2025
     </p>
-    <footer>© JESUSCASTRODATA · Open Science · 2025</footer>
-  </main>
-</body>
-</html>
+  </div>
+</section>
 
+<!-- Añadir estas fuentes en el head de tu HTML -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  /* Efectos hover mejorados */
+  [style*="background: rgba(255, 255, 255, 0.07)"]:hover {
+    transform: translateY(-8px);
+    background: rgba(255, 255, 255, 0.12) !important;
+    border-color: rgba(0, 212, 170, 0.3) !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 212, 170, 0.2) !important;
+  }
+  
+  a:hover {
+    background: rgba(0, 212, 170, 0.2) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 212, 170, 0.3);
+  }
+</style>
