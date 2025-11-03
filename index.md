@@ -1,63 +1,40 @@
-<!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Jesús Castro · JESUSCASTRODATA</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --bg1:#0B1E4B; --bg2:#1E3A8A; --fg:#FAF9F6; --acc:#00D4AA;
-    }
-    body{margin:0;background:#0b1e4b;color:var(--fg);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",sans-serif;}
-    .hero{
-      background:linear-gradient(135deg,var(--bg1),var(--bg2));
-      padding:48px 24px; border-radius:18px; max-width:960px; margin:40px auto;
-      text-align:center; box-shadow:0 8px 24px rgba(0,0,0,.18);
-    }
-    h1{font-family:Montserrat,sans-serif;font-weight:800;letter-spacing:-.5px;margin:0 0 8px;font-size:clamp(32px,5vw,44px)}
-    h2{font-weight:500;opacity:.9;margin:0 0 36px;font-size:clamp(18px,3.2vw,22px)}
-    .bar{height:4px;width:90px;background:var(--acc);margin:0 auto 24px;border-radius:2px}
-    .cards{display:flex;flex-wrap:wrap;justify-content:center;gap:28px}
-    .card{background:rgba(255,255,255,.06);padding:20px 28px;border-radius:12px;min-width:180px}
-    .emoji{font-size:28px;margin-bottom:8px}
-    .muted{font-size:13px;opacity:.7;margin-top:6px}
-    .links{margin:28px 0 4px}
-    .links a{color:var(--fg);opacity:.9;text-decoration:none;margin:0 .35rem}
-    .links a:hover{opacity:1;text-decoration:underline}
-    footer{font-size:13px;opacity:.6;margin-bottom:24px;text-align:center}
-  </style>
-</head>
-<body>
-  <main class="hero">
-    <h1>JESÚS CASTRO</h1>
-    <div class="bar"></div>
-    <h2>Analista de Datos · Ciencia Reproducible</h2>
+<section style="background:linear-gradient(135deg,#0B1E4B,#1E3A8A);
+                padding:70px 30px; border-radius:24px; color:#FAF9F6;
+                font-family:'Inter',sans-serif; text-align:center;
+                box-shadow:0 8px 28px rgba(0,0,0,.25); max-width:960px; margin:auto;">
+  <h1 style="font-family:'Montserrat',sans-serif; font-weight:800;
+             font-size:46px; letter-spacing:-0.5px; margin-bottom:12px;">
+    JESÚS CASTRO
+  </h1>
+  <div style="width:100px; height:4px; background:#00D4AA; margin:0 auto 24px; border-radius:2px;"></div>
+  <h2 style="font-weight:500; opacity:.9; margin-bottom:42px; font-size:22px;">
+    Analista de Datos · Ciencia Reproducible
+  </h2>
 
-    <section class="cards">
-      <div class="card">
-        <div class="emoji">📊</div>
-        <div style="font-weight:600">Datos Abiertos</div>
-        <div class="muted">INE · Eurostat · OpenData</div>
-      </div>
-      <div class="card">
-        <div class="emoji">🔄</div>
-        <div style="font-weight:600">Ciencia Reproducible</div>
-        <div class="muted">R · Quarto · GitHub</div>
-      </div>
-    </section>
-
-    <div class="links">
-      Santa Cruz de Tenerife, Canarias · En remoto ·
-      <a href="https://www.linkedin.com/in/jesuscastrodata">LinkedIn</a> ·
-      <a href="https://github.com/JESUSCASTRODATA">GitHub</a> ·
-      <a href="https://doi.org/10.5281/zenodo.17465216">Zenodo</a> ·
-      <a href="https://jesuscastrodata.github.io">jesuscastrodata.github.io</a>
+  <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:32px;">
+    <div style="background:rgba(255,255,255,.08); padding:28px 34px; border-radius:16px; width:220px;">
+      <div style="font-size:28px;">📊</div>
+      <p style="margin:8px 0 4px 0; font-weight:600;">Datos Abiertos</p>
+      <p style="font-size:13px; opacity:.7;">INE · Eurostat · OpenData</p>
     </div>
-    <footer>© JESUSCASTRODATA · Open Science · 2025</footer>
-  </main>
-</body>
-</html>
+    <div style="background:rgba(255,255,255,.08); padding:28px 34px; border-radius:16px; width:220px;">
+      <div style="font-size:28px;">🔄</div>
+      <p style="margin:8px 0 4px 0; font-weight:600;">Ciencia Reproducible</p>
+      <p style="font-size:13px; opacity:.7;">R · Quarto · GitHub</p>
+    </div>
+  </div>
+
+  <p style="margin-top:48px; font-size:13px; opacity:.7;">
+    Santa Cruz de Tenerife, Canarias · En remoto ·
+    <a href="https://www.linkedin.com/in/jesuscastrodata" style="color:#00D4AA;">LinkedIn</a> ·
+    <a href="https://github.com/JESUSCASTRODATA" style="color:#00D4AA;">GitHub</a> ·
+    <a href="https://doi.org/10.5281/zenodo.17465216" style="color:#00D4AA;">Zenodo</a>
+  </p>
+  <p style="font-size:12px; opacity:.5; margin-top:16px;">
+    © JESUSCASTRODATA · Open Science · 2025
+  </p>
+</section>
+
 ---
 
 ## Sobre mí
