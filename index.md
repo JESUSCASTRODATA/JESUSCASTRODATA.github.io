@@ -1,5 +1,26 @@
-<h1 align="center"><b>Jesús Castro · JESUSCASTRODATA</b></h1>
-<h3 align="center">Analista de Datos | R · ggplot2 · Open Data | Ciencia Reproducible</h3>
+<!-- ====== ENCABEZADO VISUAL JESUSCASTRODATA ====== -->
+<div align="center" style="
+  background: linear-gradient(135deg, #FAF9F6 0%, #E5E9F2 100%);
+  border-radius: 18px;
+  padding: 24px 10px 32px 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  margin-bottom: 32px;
+">
+  <h1 style="margin-bottom: 0.2em; font-weight:700; color:#222;">
+    Jesús Castro · <span style="color:#005EB8;">JESUSCASTRODATA</span>
+  </h1>
+  <h3 style="margin-top:0; color:#333;">
+    Analista de Datos · R · ggplot2 · Open Data · Ciencia Reproducible
+  </h3>
+  <svg width="280" height="60" viewBox="0 0 280 60" xmlns="http://www.w3.org/2000/svg">
+    <polyline points="0,45 40,20 80,35 120,10 160,30 200,18 240,40 280,25"
+              style="fill:none;stroke:#007ACC;stroke-width:2;opacity:0.6"/>
+    <polyline points="0,35 40,15 80,25 120,8 160,22 200,12 240,30 280,20"
+              style="fill:none;stroke:#E69F00;stroke-width:1.5;opacity:0.5"/>
+  </svg>
+</div>
+<!-- ====== FIN ENCABEZADO VISUAL ====== -->
+
 
 <p align="center">
 Santa Cruz de Tenerife, Canarias · En remoto<br>
