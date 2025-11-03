@@ -1,25 +1,36 @@
-<!-- ====== ENCABEZADO VISUAL JESUSCASTRODATA ====== -->
-<div align="center" style="
-  background: linear-gradient(135deg, #FAF9F6 0%, #E5E9F2 100%);
-  border-radius: 18px;
-  padding: 24px 10px 32px 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  margin-bottom: 32px;
-">
-  <h1 style="margin-bottom: 0.2em; font-weight:700; color:#222;">
-    Jesús Castro · <span style="color:#005EB8;">JESUSCASTRODATA</span>
-  </h1>
-  <h3 style="margin-top:0; color:#333;">
-    Analista de Datos · R · ggplot2 · Open Data · Ciencia Reproducible
-  </h3>
-  <svg width="280" height="60" viewBox="0 0 280 60" xmlns="http://www.w3.org/2000/svg">
-    <polyline points="0,45 40,20 80,35 120,10 160,30 200,18 240,40 280,25"
-              style="fill:none;stroke:#007ACC;stroke-width:2;opacity:0.6"/>
-    <polyline points="0,35 40,15 80,25 120,8 160,22 200,12 240,30 280,20"
-              style="fill:none;stroke:#E69F00;stroke-width:1.5;opacity:0.5"/>
-  </svg>
+<!-- JESUSCASTRODATA v5.0 – Banner Profesional -->
+<div style="background: linear-gradient(135deg,#0B1E4B 0%,#1E3A8A 100%);
+            color:#FAF9F6; padding:48px; border-radius:18px; font-family:'Inter',sans-serif;
+            text-align:center; max-width:960px; margin:auto;">
+
+  <h1 style="font-family:'Montserrat',sans-serif; font-size:44px; font-weight:800;
+             letter-spacing:-0.5px; margin-bottom:8px;">JESÚS CASTRO</h1>
+
+  <div style="height:4px; width:90px; background:#00D4AA; margin:0 auto 24px;"></div>
+
+  <h2 style="font-weight:500; font-size:22px; opacity:0.9; margin-bottom:36px;">
+    Analista de Datos · Ciencia Reproducible
+  </h2>
+
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:28px;">
+    <div style="background:rgba(255,255,255,0.06); padding:20px 28px; border-radius:12px; min-width:180px;">
+      <div style="font-size:28px; margin-bottom:8px;">📊</div>
+      <div style="font-weight:600;">Datos Abiertos</div>
+      <div style="font-size:13px; opacity:0.7; margin-top:6px;">INE · Eurostat · OpenData</div>
+    </div>
+
+    <div style="background:rgba(255,255,255,0.06); padding:20px 28px; border-radius:12px; min-width:180px;">
+      <div style="font-size:28px; margin-bottom:8px;">🔄</div>
+      <div style="font-weight:600;">Ciencia Reproducible</div>
+      <div style="font-size:13px; opacity:0.7; margin-top:6px;">R · Quarto · GitHub</div>
+    </div>
+  </div>
+
+  <p style="margin-top:40px; font-size:13px; opacity:0.6;">
+    © JESUSCASTRODATA · Open Science · 2025
+  </p>
 </div>
-<!-- ====== FIN ENCABEZADO VISUAL ====== -->
+
 
 
 <p align="center">
