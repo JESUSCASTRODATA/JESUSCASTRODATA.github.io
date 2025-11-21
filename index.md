@@ -1,5 +1,5 @@
 <section class="hero-section">
-    <div class="hero-texture"></div>
+    <div class="hero-texture"></div> 
 
     <div class="hero-content">
         <h1 class="hero-title">JESÚS CASTRO</h1>
