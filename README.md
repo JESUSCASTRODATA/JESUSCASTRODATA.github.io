@@ -1,78 +1,92 @@
 # Jesús Castro · JESUSCASTRODATA
 
-Analista de Datos | R · ggplot2 · Datos Abiertos | Ciencia Reproducible  
+Analista de Datos Turísticos en formación  
+R · ggplot2 · Python · Quarto · Datos Abiertos  
 Santa Cruz de Tenerife, Canarias · En remoto  
 https://jesuscastrodata.github.io
 
 ---
 
-## Qué hago
+## Sobre mí
 
-Transformo datos públicos en conocimiento **verificable y reproducible** para apoyar la toma de decisiones sociales y económicas.  
-Trabajo con **R, ggplot2 y Quarto**, aplicando pipelines completos **ETL → QA → Análisis → Visualización** sobre datos oficiales (INE, Eurostat, ISTAC).  
-Mi enfoque es **descriptivo, neutral y basado en evidencia**, siguiendo principios de **ciencia abierta y trazabilidad total**.
+Soy Analista de Datos Turísticos en formación. Transformo datos públicos en conocimiento verificable y reproducible para apoyar decisiones en el ámbito turístico y socioeconómico.
+
+Cuento con más de 30 años de experiencia en hostelería. Esa trayectoria me aporta una comprensión directa del comportamiento turístico, la estacionalidad y la dinámica económica del sector. Ahora complemento esa experiencia con análisis reproducible basado en datos oficiales y métodos abiertos.
+
+Trabajo con R, Python y Quarto, siguiendo pipelines estructurados ETL → QA → Análisis → Visualización, siempre con datos oficiales (ISTAC, INE, FRONTUR, EGATUR, Eurostat, AENA). Mi enfoque es descriptivo, neutral y basado en evidencia.
 
 ---
 
-## Proyecto destacado
+## En qué me centro
+
+- Evolución del gasto turístico en Canarias  
+- Análisis de mercados emisores y gasto medio real  
+- Estacionalidad y patrones de demanda  
+- Tendencias suavizadas y análisis comparativos  
+- Construcción de pipelines reproducibles  
+- Visualizaciones claras (tema pearl y paleta Okabe–Ito)
+
+---
+
+## Proyecto actual
+
+### Evolución del Gasto Turístico en Canarias (2016–2024)
+
+Análisis reproducible del gasto turístico nominal y real en Canarias, integrando EGATUR, FRONTUR, ISTAC e IPC. Incluye:
+
+- Deflactación mediante empalme IPC (Base 2016 ↔ Base 2021)  
+- Tendencias reales a 12M  
+- Brecha nominal-real  
+- Mercados emisores  
+- Gasto medio real por visitante  
+- Estacionalidad y composición del gasto  
+
+Accesos directos:  
+- Informe HTML: (se publicará en GitHub Pages)  
+- Código: https://github.com/JESUSCASTRODATA/turismo_canarias_gasto  
+- Datos originales: ISTAC · INE · FRONTUR · EGATUR
+
+---
+
+## Proyecto previo (referencia)
 
 ### Delitos e Inmigración en España (2010–2023)
 
-**Pregunta que resuelve**  
-¿Existe evidencia empírica de una relación entre el aumento de la población inmigrante y los cambios en la criminalidad en España?
+Análisis longitudinal con datos oficiales, desarrollado como proyecto profesional y de portfolio.
 
-**Qué aporta**  
-Análisis longitudinal con datos oficiales, uso de **tasas**, controles metodológicos y pruebas estadísticas.  
-Incluye pipeline completo **ETL + QA + análisis + visualizaciones**, diseño propio (*theme pearl* + *paleta Okabe–Ito*), y publicación con **DOI y licencias abiertas**.
-
-**Accesos directos**
-- 📄 **Informe HTML:** https://jesuscastrodata.github.io/delitos_inmigracion_espana_MIN/informe_final.html  
-- 💻 **Código (GitHub):** https://github.com/JESUSCASTRODATA/delitos_inmigracion_espana_MIN  
-- 🗂️ **Datos originales:** Ministerio del Interior · INE · Eurostat
+- Informe HTML: https://jesuscastrodata.github.io/delitos_inmigracion_espana_MIN/informe_final.html  
+- Código: https://github.com/JESUSCASTRODATA/delitos_inmigracion_espana_MIN  
+- Datos: Ministerio del Interior, INE, Eurostat  
+- DOI: https://doi.org/10.5281/zenodo.17465216
 
 ---
 
-## Metodología común
+## Metodología de trabajo
 
-- Fuentes oficiales y abiertas (INE, Eurostat, ISTAC, Ministerio del Interior)
-- Análisis por **tasas** y no por valores absolutos
-- Control de rupturas y outliers (p. ej., COVID-19)
-- Pipelines reproducibles y documentados (R / Quarto)
-- Control de calidad (QA) y trazabilidad de extremo a extremo
+- Pipelines reproducibles con R, Python y Quarto  
+- Control de calidad: continuidad temporal, duplicados, anomalías  
+- Documentación clara y completa  
+- Uso exclusivo de fuentes oficiales  
+- Visualizaciones homogéneas y accesibles  
+- Trazabilidad y transparencia en todo el flujo de trabajo
 
 ---
 
 ## Stack
 
-R · ggplot2 · Quarto · GitHub
+R · ggplot2 · Python · Pandas · Matplotlib · Quarto · GitHub
 
 ---
 
-## Principios de trabajo
+## Licencias
 
-- Ciencia abierta y reproducible
-- Neutralidad analítica y evidencia empírica
-- Documentación completa y control de calidad (QA)
-- Visualización clara y accesible  
-  *(theme pearl + paleta Okabe–Ito)*
+- Código: MIT  
+- Documentación y figuras: CC BY 4.0  
+- Datos: Fuentes oficiales (ISTAC, INE, FRONTUR, EGATUR, Eurostat)
 
 ---
 
-## Licencias y citación
+## Citación del proyecto previo
 
-- **Código:** Licencia MIT  
-- **Documentación y figuras:** CC BY 4.0  
-- **Datos:** fuentes oficiales (INE, Eurostat, ISTAC, etc.)
-
-**Cita recomendada**  
 Castro, J. (2025). *Delitos e Inmigración en España (2010–2023).* Zenodo.  
 https://doi.org/10.5281/zenodo.17465216
-
----
-
-<p align="center">
-  <a href="https://jesuscastrodata.github.io/">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/jesuscastrodata">LinkedIn</a> ·
-  <a href="https://doi.org/10.5281/zenodo.17465216">Zenodo</a> ·
-  <a href="https://github.com/JESUSCASTRODATA">GitHub</a>
-</p>
